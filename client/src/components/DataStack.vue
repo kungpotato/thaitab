@@ -8,7 +8,7 @@
             <img class="img-fit" src="http://img.painaidii.com/images/20150330_3_1427698222_987521.jpg" alt="น้ำตก">
           </div>
           <div class="col-md-8">
-            <b>title kungpotato</b>
+            <b>{{title}}</b>
             <p>
               Lorem ipsum dolor sit amet, mei augue malorum scaevola no, ut vim possim aliquando.
               An sententiae honestatis scriptorem eos, novum dissentias nam an. Nam latine malorum sensibus at,
@@ -30,8 +30,23 @@ import Recommend from './Recommend'
 
 export default {
   name: 'data-list',
+  data () {
+    return {
+      title: ''
+    }
+  },
   components: {
     'recom-room': Recommend
+  },
+  mounted () {
+    // this.$http.get('https://jsonplaceholder.typicode.com/posts/1')
+    this.$http.get('/tasks/5b2a6e120c615b08845ce0a2')
+      .then(res => res.json())
+      .then(result => {
+        this.title = result.title
+      }, err => {
+        console.error(err)
+      })
   }
 }
 </script>

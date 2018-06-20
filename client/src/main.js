@@ -7,9 +7,13 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './components/template/css/style.css'
+import VueResource from 'vue-resource'
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
+
+Vue.use(VueResource)
+// Vue.http.options.root = 'http://localhost:8000'
 
 /* eslint-disable no-new */
 new Vue({
