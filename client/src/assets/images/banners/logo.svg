@@ -1,0 +1,19 @@
+<svg id="Group_4" data-name="Group 4" xmlns="http://www.w3.org/2000/svg" viewBox="345 0 173 127">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63c9f9;
+      }
+
+      .cls-2 {
+        fill: #323643;
+        font-size: 39px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path id="Path_1" data-name="Path 1" class="cls-1" d="M0,0H173V127H0Z" transform="translate(345)"/>
+  <text id="TIEW" class="cls-2" transform="translate(379 58)"><tspan x="0" y="0">TIEW</tspan></text>
+  <text id="THAI" class="cls-2" transform="translate(381 106)"><tspan x="0" y="0">THAI</tspan></text>
+</svg>
