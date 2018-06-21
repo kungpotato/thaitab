@@ -13,7 +13,7 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 
 Vue.use(VueResource)
-// Vue.http.options.root = 'http://localhost:8000'
+// Vue.http.options.root = 'https://stormy-hamlet-19397.herokuapp.com'
 
 /* eslint-disable no-new */
 new Vue({

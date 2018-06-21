@@ -40,7 +40,7 @@ export default {
   },
   mounted () {
     // this.$http.get('https://jsonplaceholder.typicode.com/posts/1')
-    this.$http.get('/tasks/5b2a6e120c615b08845ce0a2')
+    this.$http.get('https://stormy-hamlet-19397.herokuapp.com/tasks/5b2a6e120c615b08845ce0a2')
       .then(res => res.json())
       .then(result => {
         this.title = result.title
